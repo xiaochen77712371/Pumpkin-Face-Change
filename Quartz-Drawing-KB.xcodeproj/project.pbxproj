@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562428C41DC7B6A500D8F312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562428C31DC7B6A500D8F312 /* AppDelegate.swift */; };
+		562428C61DC7B6A500D8F312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562428C51DC7B6A500D8F312 /* ViewController.swift */; };
+		562428C81DC7B6A500D8F312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562428C71DC7B6A500D8F312 /* Assets.xcassets */; };
+		562428CB1DC7B6A500D8F312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562428C91DC7B6A500D8F312 /* Main.storyboard */; };
+		562428D31DC7B7B900D8F312 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562428D21DC7B7B900D8F312 /* Graphics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		562428C01DC7B6A500D8F312 /* Quartz-Drawing-KB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz-Drawing-KB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562428C31DC7B6A500D8F312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562428C51DC7B6A500D8F312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562428C71DC7B6A500D8F312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562428CA1DC7B6A500D8F312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562428CC1DC7B6A500D8F312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562428D21DC7B7B900D8F312 /* Graphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562428BD1DC7B6A400D8F312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562428B71DC7B6A400D8F312 = {
+			isa = PBXGroup;
+			children = (
+				562428C21DC7B6A500D8F312 /* Quartz-Drawing-KB */,
+				562428C11DC7B6A500D8F312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562428C11DC7B6A500D8F312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562428C01DC7B6A500D8F312 /* Quartz-Drawing-KB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562428C21DC7B6A500D8F312 /* Quartz-Drawing-KB */ = {
+			isa = PBXGroup;
+			children = (
+				562428C31DC7B6A500D8F312 /* AppDelegate.swift */,
+				562428C51DC7B6A500D8F312 /* ViewController.swift */,
+				562428C71DC7B6A500D8F312 /* Assets.xcassets */,
+				562428C91DC7B6A500D8F312 /* Main.storyboard */,
+				562428CC1DC7B6A500D8F312 /* Info.plist */,
+				562428D21DC7B7B900D8F312 /* Graphics.swift */,
+			);
+			path = "Quartz-Drawing-KB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562428BF1DC7B6A400D8F312 /* Quartz-Drawing-KB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562428CF1DC7B6A500D8F312 /* Build configuration list for PBXNativeTarget "Quartz-Drawing-KB" */;
+			buildPhases = (
+				562428BC1DC7B6A400D8F312 /* Sources */,
+				562428BD1DC7B6A400D8F312 /* Frameworks */,
+				562428BE1DC7B6A400D8F312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz-Drawing-KB";
+			productName = "Quartz-Drawing-KB";
+			productReference = 562428C01DC7B6A500D8F312 /* Quartz-Drawing-KB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562428B81DC7B6A400D8F312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kirsten Bauman";
+				TargetAttributes = {
+					562428BF1DC7B6A400D8F312 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 562428BB1DC7B6A400D8F312 /* Build configuration list for PBXProject "Quartz-Drawing-KB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562428B71DC7B6A400D8F312;
+			productRefGroup = 562428C11DC7B6A500D8F312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562428BF1DC7B6A400D8F312 /* Quartz-Drawing-KB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562428BE1DC7B6A400D8F312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562428C81DC7B6A500D8F312 /* Assets.xcassets in Resources */,
+				562428CB1DC7B6A500D8F312 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562428BC1DC7B6A400D8F312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562428D31DC7B7B900D8F312 /* Graphics.swift in Sources */,
+				562428C61DC7B6A500D8F312 /* ViewController.swift in Sources */,
+				562428C41DC7B6A500D8F312 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		562428C91DC7B6A500D8F312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562428CA1DC7B6A500D8F312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562428CD1DC7B6A500D8F312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		562428CE1DC7B6A500D8F312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		562428D01DC7B6A500D8F312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quartz-Drawing-KB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame430.Quartz-Drawing-KB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		562428D11DC7B6A500D8F312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quartz-Drawing-KB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame430.Quartz-Drawing-KB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562428BB1DC7B6A400D8F312 /* Build configuration list for PBXProject "Quartz-Drawing-KB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562428CD1DC7B6A500D8F312 /* Debug */,
+				562428CE1DC7B6A500D8F312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562428CF1DC7B6A500D8F312 /* Build configuration list for PBXNativeTarget "Quartz-Drawing-KB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562428D01DC7B6A500D8F312 /* Debug */,
+				562428D11DC7B6A500D8F312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562428B81DC7B6A400D8F312 /* Project object */;
+}
